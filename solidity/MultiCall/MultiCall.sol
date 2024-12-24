@@ -55,3 +55,5 @@ contract TestMultiCall {
         return abi.encodeWithSelector(this.func1.selector, number);
     }
 }
+
+calls: [["0x7b3f7790e198FCBF5973040A6a44e272F44a9fe1", true, "0x74135154"],  ["0x7b3f7790e198FCBF5973040A6a44e272F44a9fe1", false,"0x741351540000000000000000000000000000000000000000000000000000000000000001"]]
