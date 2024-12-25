@@ -4,3 +4,16 @@
 
 [blockchain 学习网址](https://learnblockchain.cn/)
 
+# 推荐项目
+
+[Dapp-Learning](https://github.com/Dapp-Learning-DAO/Dapp-Learning/)
+
+[WTF Solidity](https://github.com/AmazingAng/WTF-Solidity)
+
+# 工作信息
+
+[Rebase社区](https://github.com/rebase-network/who-is-hiring)
+
+
+
+
