@@ -1,4 +1,0 @@
-[
-  "function EVM_EXTRA_ARGS_V1_TAG() view returns (bytes4)",
-  "function EVM_EXTRA_ARGS_V2_TAG() view returns (bytes4)"
-]

@@ -1,3 +1,0 @@
-[
-  "function ccipReceive(tuple(bytes32,uint64,bytes,bytes,tuple(address,uint256)[]))"
-]
