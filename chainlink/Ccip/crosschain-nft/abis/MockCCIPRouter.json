@@ -1,0 +1,21 @@
+[
+  "error InsufficientFeeTokenAmount()",
+  "error InvalidAddress(bytes)",
+  "error InvalidExtraArgsTag()",
+  "error InvalidMsgValue()",
+  "error OnlyOffRamp()",
+  "error ReceiverError(bytes)",
+  "error UnsupportedDestinationChain(uint64)",
+  "event MessageExecuted(bytes32,uint64,address,bytes32)",
+  "event MsgExecuted(bool,bytes,uint256)",
+  "function DEFAULT_GAS_LIMIT() view returns (uint32)",
+  "function GAS_FOR_CALL_EXACT_CHECK() view returns (uint16)",
+  "function ccipSend(uint64,tuple(bytes,bytes,tuple(address,uint256)[],address,bytes)) payable returns (bytes32)",
+  "function getFee(uint64,tuple(bytes,bytes,tuple(address,uint256)[],address,bytes)) view returns (uint256)",
+  "function getOnRamp(uint64) pure returns (address)",
+  "function getSupportedTokens(uint64) pure returns (address[])",
+  "function isChainSupported(uint64) pure returns (bool)",
+  "function isOffRamp(uint64,address) pure returns (bool)",
+  "function routeMessage(tuple(bytes32,uint64,bytes,bytes,tuple(address,uint256)[]),uint16,uint256,address) returns (bool, bytes, uint256)",
+  "function setFee(uint256)"
+]

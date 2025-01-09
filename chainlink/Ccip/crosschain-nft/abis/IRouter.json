@@ -1,0 +1,6 @@
+[
+  "error OnlyOffRamp()",
+  "function getOnRamp(uint64) view returns (address)",
+  "function isOffRamp(uint64,address) view returns (bool)",
+  "function routeMessage(tuple(bytes32,uint64,bytes,bytes,tuple(address,uint256)[]),uint16,uint256,address) returns (bool, bytes, uint256)"
+]

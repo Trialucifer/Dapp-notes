@@ -1,0 +1,4 @@
+[
+  "event Transfer(address indexed,address indexed,uint256,bytes)",
+  "function transferAndCall(address,uint256,bytes) returns (bool)"
+]

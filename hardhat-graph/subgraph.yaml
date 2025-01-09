@@ -1,0 +1,32 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: FundMe
+    network: sepolia
+    source:
+      address: "0xeB137d71203E49b16dd4eF6DFb260C8030f91c1d"
+      abi: FundMe
+      startBlock: 0
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - FundLog
+        - FundWithdDrawByOwner
+        - RefundBalance
+      abis:
+        - name: FundMe
+          file: ./abis/FundMe.json
+      eventHandlers:
+        - event: FundLog(indexed address,uint256)
+          handler: handleFundLog
+        - event: FundWithdDrawByOwner(uint256)
+          handler: handleFundWithdDrawByOwner
+        - event: RefundBalance(address,uint256)
+          handler: handleRefundBalance
+      file: ./src/fund-me.ts

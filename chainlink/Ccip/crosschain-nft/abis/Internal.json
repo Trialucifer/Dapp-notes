@@ -1,0 +1,10 @@
+[
+  "error InvalidEVMAddress(bytes)",
+  "function ANY_2_EVM_MESSAGE_FIXED_BYTES() view returns (uint256)",
+  "function ANY_2_EVM_MESSAGE_FIXED_BYTES_PER_TOKEN() view returns (uint256)",
+  "function CHAIN_FAMILY_SELECTOR_EVM() view returns (bytes4)",
+  "function GAS_PRICE_BITS() view returns (uint8)",
+  "function MESSAGE_FIXED_BYTES() view returns (uint256)",
+  "function MESSAGE_FIXED_BYTES_PER_TOKEN() view returns (uint256)",
+  "function PRECOMPILE_SPACE() view returns (uint256)"
+]

@@ -26,4 +26,4 @@ ERC721Randomtest 通过线下哈希函数请求随机数，一个基础的ERC721
 
 [NFT 智能合约教程：白名单，随机铸造，动态更新_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1T24y167KT/?spm_id_from=333.788.recommend_more_video.1&vd_source=35e66fb56cf7f295e7d1d550f772c64d)
 
-
+[ERC721A](https://github.com/chiru-labs/ERC721A)
