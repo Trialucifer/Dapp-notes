@@ -1,0 +1,1 @@
+[安装地址](https://getfoundry.sh/)
