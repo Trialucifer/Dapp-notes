@@ -11,7 +11,7 @@
 
 > 安装第三方合约  
 > npm install @chainlink/contracts --save-dev  
-> npm install @openzeppelin/contracts —save-dev  
+> npm install @openzeppelin/contracts --save-dev  
 
 > 编译contracts下面的所有合约  
 > npx hardhat compile  
